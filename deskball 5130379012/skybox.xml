@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<skybox>
+	<surface type="front" polygon-type="trangle">
+		<texture>resource/skybox/front.bmp</texture>
+		<vertices>
+			<vertex>
+				<position x="400" y="400" z="400"></position>
+				<texcoord u="0.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="-400" z="400"></position>
+				<texcoord u="0.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="-400" z="400"></position>
+				<texcoord u="1.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="400" z="400"></position>
+				<texcoord u="1.0" v="1.0"></texcoord>
+			</vertex>
+		</vertices>
+	</surface>
+	<surface type="back" polygon-type="trangle">
+		<texture>resource/skybox/back.bmp</texture>
+		<vertices>
+			<vertex>
+				<position x="-400" y="400" z="-400"></position>
+				<texcoord u="0.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="-400" z="-400"></position>
+				<texcoord u="0.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="-400" z="-400"></position>
+				<texcoord u="1.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="400" z="-400"></position>
+				<texcoord u="1.0" v="1.0"></texcoord>
+			</vertex>
+		</vertices>
+	</surface>
+	<surface type="right" polygon-type="trangle">
+		<texture>resource/skybox/right.bmp</texture>
+		<vertices>
+			<vertex>
+				<position x="400" y="400" z="-400"></position>
+				<texcoord u="0.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="-400" z="-400"></position>
+				<texcoord u="0.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="-400" z="400"></position>
+				<texcoord u="1.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="400" z="400"></position>
+				<texcoord u="1.0" v="1.0"></texcoord>
+			</vertex>
+		</vertices>
+	</surface>
+	<surface type="left" polygon-type="trangle">
+		<texture>resource/skybox/left.bmp</texture>
+		<vertices>
+			<vertex>
+				<position x="-400" y="400" z="400"></position>
+				<texcoord u="0.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="-400" z="400"></position>
+				<texcoord u="0.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="-400" z="-400"></position>
+				<texcoord u="1.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="400" z="-400"></position>
+				<texcoord u="1.0" v="1.0"></texcoord>
+			</vertex>
+		</vertices>
+	</surface>
+	<surface type="top" polygon-type="trangle">
+		<texture>resource/skybox/top.bmp</texture>
+		<vertices>
+			<vertex>
+				<position x="-400" y="400" z="400"></position>
+				<texcoord u="0.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="400" z="-400"></position>
+				<texcoord u="0.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="400" z="-400"></position>
+				<texcoord u="1.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="400" z="400"></position>
+				<texcoord u="1.0" v="1.0"></texcoord>
+			</vertex>
+		</vertices>
+	</surface>
+	<surface type="botton" polygon-type="trangle">
+		<texture>resource/skybox/bottom.bmp</texture>
+		<vertices>
+			<vertex>
+				<position x="-400" y="-400" z="400"></position>
+				<texcoord u="0.0" v="0.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="-400" y="-400" z="-400"></position>
+				<texcoord u="0.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="-400" z="-400"></position>
+				<texcoord u="1.0" v="1.0"></texcoord>
+			</vertex>
+			<vertex>
+				<position x="400" y="-400" z="400"></position>
+				<texcoord u="1.0" v="0.0"></texcoord>
+			</vertex>
+		</vertices>
+	</surface>
+</skybox>
